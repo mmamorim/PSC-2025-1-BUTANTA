@@ -7,3 +7,4 @@
 * [Aula01](./aula01/) (24/02) - Apresentação da UC / Introdução Java
 * (03/03) - CARNAVAL
 * [Aula02](./aula02/) (10/03) - Introdução Variáveis / Leitura / Saída
+  * [Texto complementar](./capitulo1.pdf) 
