@@ -1,5 +1,7 @@
 <img src="/assets/teste.svg" width="100%">
 
+# Aula 2 - 10/03/2025
+
 ### Estrutura da Linguagem Java
 
 <p align="justify">
@@ -95,56 +97,3 @@ Os operadores **aritméticos** na linguagem Java adotados são:
 | -- | decremento |
 </p>
 
-<p align="justify">
-
-Os operadores **relacionais** na linguagem Java adotados são:
-
-| Operador | Descrição |
-| -- | -- |
-| > | maior |
-| >= | maior ou igual |
-| > | menor |
-| <= | menor ou igual |
-| == | igualdade |
-| != | diferente |
-</p>
-
-<p align="justify">
-
-Os operadores **lógicos** na linguagem Java adotados são:
-
-| Operador | Descrição |
-| -- | -- |
-| && | conjunção (E) |
-| \|\| | disjunção (OU) |
-| ! | negação (NÃO) |
-</p>
-
-### Desvios Condicionais
-
-<p align="justify">
-
-A Linguagem Java, como qualquer outra linguagem de programação, suporta desvios condicionais utilizando a estrutura **`if`..`else`**. Quando temos mais de um comando a ser executado para um determinada condição, devemos agrupar estes comandos em um bloco delimitado por chaves, conforme indicado no Exemplo abaixo.
-</p>
-
-> caso 1
-> ~~~java
-> if( /*CONDIÇÃO/* ) 
->     // COMANDO 1
-> ~~~
-> 
-
-> caso 2
-> ~~~java
-> if( /*CONDIÇÃO/* ) {
->     // COMANDO 1
->     // COMANDO 2
->     // ...
-> } 
-> ~~~
-
-<p align="justify">
-</p>
-
-<p align="justify">
-</p>
