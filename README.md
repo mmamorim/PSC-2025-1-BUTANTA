@@ -10,3 +10,4 @@
 * [Aula03](./aula03/) (17/03) 
   - Leitura / Saída
   - Desvios condicionais
+* Aula04 (24/03) Tech Week IX [link](https://animatechweek.com.br/)
