@@ -59,6 +59,73 @@ Enquanto ```leitor.next()``` é usado na leitura de palavras simples, ou seja, n
 > DEZENA: 4
 > UNIDADE: 2
 
+import java.util.Scanner;
+
+public class SepararDigitos {
+    public static void main(String[] args) {
+        // Criando o objeto Scanner para ler a entrada
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicitar ao usuário que insira um número inteiro de 3 dígitos
+        System.out.print("Digite um número inteiro de 3 dígitos: ");
+        int numero = scanner.nextInt();
+        
+        // Calcular a centena, dezena e unidade
+        int centena = numero / 100;         // Dividir por 100 para obter o primeiro dígito (centena)
+        int dezena = (numero / 10) % 10;    // Dividir por 10 e pegar o resto da divisão por 10 (dízena)
+        int unidade = numero % 10;          // Pegar o resto da divisão por 10 para obter o último dígito (unidade)
+        
+        // Exibir os resultados
+        System.out.println("CENTENA: " + centena);
+        System.out.println("DEZENA: " + dezena);
+        System.out.println("UNIDADE: " + unidade);
+        
+        // Fechar o scanner
+        scanner.close();
+    }
+}
+
 #### Exercício 2
 > Ler o horário de início e término de uma reunião e apresentar o tempo de duração da reunião.
+
+import java.util.Scanner;
+
+public class DuracaoReuniao {
+    public static void main(String[] args) {
+        // Criando o objeto Scanner para ler a entrada
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicitar o horário de início (horas e minutos)
+        System.out.print("Digite o horário de início (horas e minutos): ");
+        int horaInicio = scanner.nextInt();
+        int minutoInicio = scanner.nextInt();
+        
+        // Solicitar o horário de término (horas e minutos)
+        System.out.print("Digite o horário de término (horas e minutos): ");
+        int horaFim = scanner.nextInt();
+        int minutoFim = scanner.nextInt();
+        
+        // Converter os horários para minutos desde a meia-noite
+        int totalMinutosInicio = horaInicio * 60 + minutoInicio;
+        int totalMinutosFim = horaFim * 60 + minutoFim;
+        
+        // Calcular a duração da reunião em minutos
+        int duracaoMinutos = totalMinutosFim - totalMinutosInicio;
+        
+        // Caso a reunião tenha passado da meia-noite, corrigimos o cálculo
+        if (duracaoMinutos < 0) {
+            duracaoMinutos += 24 * 60;  // Adicionamos 24 horas em minutos (1440 minutos)
+        }
+        
+        // Converter a duração de minutos para horas e minutos
+        int horasDuracao = duracaoMinutos / 60;
+        int minutosDuracao = duracaoMinutos % 60;
+        
+        // Exibir o tempo de duração
+        System.out.println("Duração da reunião: " + horasDuracao + " horas e " + minutosDuracao + " minutos.");
+        
+        // Fechar o scanner
+        scanner.close();
+    }
+}
 
