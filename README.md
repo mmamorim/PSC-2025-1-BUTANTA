@@ -13,3 +13,6 @@
 * Aula04 (24/03) Tech Week IX [link](https://animatechweek.com.br/)
 * [Aula05](./aula05/) (31/03) 
   - Desvios condicionais
+* [Aula06](./aula06/) (07/04) 
+  - Laços de Repetição 
+  - Modularização (Métodos)
