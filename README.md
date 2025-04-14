@@ -16,3 +16,5 @@
 * [Aula06](./aula06/) (07/04) 
   - Laços de Repetição 
   - Modularização (Métodos)
+* [Aula07](./aula07/) (14/04) 
+  - Orientação a objetos
