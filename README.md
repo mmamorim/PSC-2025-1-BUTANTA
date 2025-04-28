@@ -21,4 +21,4 @@
 * [Aula08](./aula08/) (28/04) 
   - Métodos Construtores
   - Encapsulamento
-  - [Exercícios](exercicios.md)
+  - [Exercícios](./aula08/exercicios.md)
