@@ -18,3 +18,7 @@
   - Modularização (Métodos)
 * [Aula07](./aula07/) (14/04) 
   - Orientação a objetos
+* [Aula08](./aula08/) (28/04) 
+  - Métodos Construtores
+  - Encapsulamento
+  - [Exercícios](exercicios.md)
